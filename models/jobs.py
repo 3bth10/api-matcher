@@ -9,3 +9,5 @@ class Jobs(Base):
     id = Column(Integer , unique=True , primary_key=True , index=True)
     title = Column(String , unique=True , index=True )
     create_at = Column(DateTime , default=datetime.utcnow, index=True )
+
+    
