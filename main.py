@@ -3,7 +3,7 @@ from fastapi import APIRouter, FastAPI
 from  routes.users_router import router as users_router
 from routes.resume import resume_router
 from db import Base , engine
-from models import users , resume
+from models import users , resume , jobs
 
 
 app = FastAPI()
