@@ -1,0 +1,83 @@
+# API Matcher
+
+A FastAPI-based service that matches resumes with job descriptions using automated text analysis and scoring.
+
+## Features
+
+* Upload and analyze resumes
+* Compare resumes against job descriptions
+* Generate match scores
+* Highlight relevant skills and keywords
+* RESTful API endpoints
+* Fast and lightweight implementation
+
+## Tech Stack
+
+* Python
+* FastAPI
+* SQLAlchemy
+* Pydantic
+* PostgreSQL / SQLite
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/api-matcher.git
+cd api-matcher
+
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+pip install -r requirements.txt
+```
+
+## Run the API
+
+```bash
+uvicorn app.main:app --reload
+```
+
+The API will be available at:
+
+```text
+http://localhost:8000
+```
+
+## API Documentation
+
+Swagger UI:
+
+```text
+http://localhost:8000/docs
+```
+
+ReDoc:
+
+```text
+http://localhost:8000/redoc
+```
+
+## Example Workflow
+
+1. Upload a resume.
+2. Submit a job description.
+3. Receive a compatibility score.
+4. Review matched skills and recommendations.
+
+## Project Structure
+
+```text
+api-matcher/
+├── app/
+├── routers/
+├── models/
+├── schemas/
+├── services/
+├── requirements.txt
+└── README.md
+```
+
+## License
+
+MIT License
