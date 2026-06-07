@@ -22,7 +22,7 @@ A FastAPI-based service that matches resumes with job descriptions using automat
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/api-matcher.git
+git clone https://github.com/3bth10/api-matcher.git
 cd api-matcher
 
 python -m venv venv
